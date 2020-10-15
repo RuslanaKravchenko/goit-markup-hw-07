@@ -1,5 +1,3 @@
-// файл для переменных
-
 /* цвет основного текста #757575 */
 /* вторичный цвет текста (цвет заголовков) #212121 */
 /* акцент #2196F3 */
@@ -19,12 +17,13 @@ $primary-white-color: #ffffff;
 $secondary-bg-color: #f5f4fa;
 $accent-bg-color: #2f303a;
 $primary-icon-color: #afb1b8;
+$primary-border-color: #eeeeee;
+$secondary-border-color: #ececec;
 
 $main-font: "Roboto", sans-serif;
 $secondary-font: "Raleway", sans-serif;
 
 $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-// Спорные переменные нужно пересмотреть!!!!
 $primary-border-color: #eeeeee;
 $secondary-border-color: #ececec;

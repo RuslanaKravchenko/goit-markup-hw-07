@@ -731,7 +731,7 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-request__field:focus-within input,
+.form-request__field:focus-within .form-request__input,
 .form-request__field:focus-within .field-comment {
   outline: none;
   border-color: #2196f3;
@@ -784,6 +784,16 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
 .policy__checkbox {
   position: absolute;
   width: 1px;
@@ -793,16 +803,6 @@ img {
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.policy {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 30px;
 }
 
 .policy__label {
