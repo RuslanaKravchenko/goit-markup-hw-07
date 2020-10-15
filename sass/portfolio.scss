@@ -1,0 +1,9 @@
+// главный файл который компилируется
+// только для импортов
+
+@import "./utils/vars";
+@import "./utils/base";
+@import "./components/common/page-header";
+@import "./components/common/logo";
+@import "./components/common/page-footer";
+@import "./components/common/list-social-networks";
