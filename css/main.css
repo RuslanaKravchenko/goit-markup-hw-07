@@ -825,7 +825,7 @@ img {
   content: "";
   display: block;
   width: 100%;
-  height: 1px;
+  height: 0.5px;
   background-color: #2196f3;
   left: 0;
   bottom: 5px;
