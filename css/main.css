@@ -815,8 +815,20 @@ img {
 }
 
 .policy .contract {
+  position: relative;
   color: #2196f3;
   margin-left: 5px;
+}
+
+.policy .contract::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #2196f3;
+  left: 0;
+  bottom: 5px;
 }
 
 .policy__label::before {
